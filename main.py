@@ -8,7 +8,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def hello_world():
-    return 'Trigger Deployed'
+    return 'Trigger Deployed again'
 
 
 # client = bigquery.Client()
